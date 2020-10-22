@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5d45e6e1f0324059b6635ab21980f589 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5d45e6e1f0324059b6635ab21980f589" ></div>
+        
+</body>
+<script>    
+    
+            var map_5d45e6e1f0324059b6635ab21980f589 = L.map(
+                "map_5d45e6e1f0324059b6635ab21980f589",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e9769f5fb788418aa928878d9e0f4090 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5d45e6e1f0324059b6635ab21980f589);
+        
+    
+            var feature_group_0da6317d2f3447dd9ccff02dd952480f = L.featureGroup(
+                {}
+            ).addTo(map_5d45e6e1f0324059b6635ab21980f589);
+        
+    
+            var marker_e762e920e4d14d0bb7843c3d550e7550 = L.marker(
+                [21.1523, 79.0882],
+                {}
+            ).addTo(feature_group_0da6317d2f3447dd9ccff02dd952480f);
+        
+    
+            var icon_cab91b2a76ee44e3b8826dbeb0ee2c4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumbs-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e762e920e4d14d0bb7843c3d550e7550.setIcon(icon_cab91b2a76ee44e3b8826dbeb0ee2c4e);
+        
+    
+        var popup_86083899541d42c6970e4047e09cfb08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1031aacc1cbc43439e646fea20dab3d8 = $(`<div id="html_1031aacc1cbc43439e646fea20dab3d8" style="width: 100.0%; height: 100.0%;">Nagpur Railway Station</div>`)[0];
+            popup_86083899541d42c6970e4047e09cfb08.setContent(html_1031aacc1cbc43439e646fea20dab3d8);
+        
+
+        marker_e762e920e4d14d0bb7843c3d550e7550.bindPopup(popup_86083899541d42c6970e4047e09cfb08)
+        ;
+
+        
+    
+    
+            var marker_1c00f659712947a0a9888def15e89308 = L.marker(
+                [21.0918, 79.0492],
+                {}
+            ).addTo(feature_group_0da6317d2f3447dd9ccff02dd952480f);
+        
+    
+            var icon_a5730cd99edd493ebc6b269de26ffc17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-thumbs-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1c00f659712947a0a9888def15e89308.setIcon(icon_a5730cd99edd493ebc6b269de26ffc17);
+        
+    
+        var popup_ca9cf0db96fb402e8cff6503c78db06e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fa61133eaf14050951a63f4b413bf03 = $(`<div id="html_2fa61133eaf14050951a63f4b413bf03" style="width: 100.0%; height: 100.0%;">Nagpur Airport</div>`)[0];
+            popup_ca9cf0db96fb402e8cff6503c78db06e.setContent(html_2fa61133eaf14050951a63f4b413bf03);
+        
+
+        marker_1c00f659712947a0a9888def15e89308.bindPopup(popup_ca9cf0db96fb402e8cff6503c78db06e)
+        ;
+
+        
+    
+</script>
